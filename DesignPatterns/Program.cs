@@ -6,8 +6,7 @@ namespace DesignPatterns
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hedllo World!");
-            //aaa
+            
         }
     }
 }
