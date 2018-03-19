@@ -21,7 +21,25 @@ namespace DesignPatterns.Behavioral.Visitor.Shapes
             Console.WriteLine($"total area: {AreaOfSeveralSquares}");
             /* total area: 14 */
 
-            
+            //===============
+            var list = new List<IShape>();
+            list.Add(new Circle(10));
+            list.Add(new Circle(10));
+            list.Add(new Square(10));
+
+
+            foreach(var s in list)
+            {
+                Console.WriteLine($"Shape[{s.Name()}] has area of {s.Accept(areaMeter)}");
+            }
+
+            /*
+               Shape[circle] has area of 314,1593
+               Shape[circle] has area of 314,1593
+               Shape[Square] has area of 100
+            */
+
+
         }
     }
 }
