@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>DesignPatterns.Behavioral.Visitor.Shapes.Shapes</StartupObject>
+    <StartupObject>DesignPatterns.Behavioral.Observer.NumGenerator.NumGenerator</StartupObject>
   </PropertyGroup>
 
 </Project>
