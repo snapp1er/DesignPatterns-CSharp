@@ -42,7 +42,24 @@ namespace DesignPatterns.Behavioral.Observer.NumGenerator
             {
                 generator.GenerateNewInt();
             }
-            
+            /*
+            generated : 497
+            =====================
+            generated : 221
+            =====================
+            generated : 933
+            Number ends with three
+            =====================
+            generated : 1542
+            Number is even
+            Number is more than thousand
+            =====================
+            generated : 1314
+            Number is even
+            Number is more than thousand
+            =====================
+             */
+
         }
     }
 }
