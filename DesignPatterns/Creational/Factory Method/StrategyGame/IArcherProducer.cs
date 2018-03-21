@@ -6,6 +6,6 @@ namespace DesignPatterns.Creational.Factory_Method
 {
     interface IArcherProducer
     {
-
+        Archer ProduceArcher();
     }
 }
