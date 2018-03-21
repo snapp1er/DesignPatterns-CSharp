@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>DesignPatterns.Creational.Factory_Method.StrategyGame.StrategyGame</StartupObject>
+    <StartupObject>DesignPatterns.Structural.Bridge.GameControllers.GameControllers</StartupObject>
   </PropertyGroup>
 
 </Project>
