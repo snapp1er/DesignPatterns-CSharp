@@ -34,6 +34,10 @@ namespace DesignPatterns.Structural.Decorator.InterceptableWorker
             interceptableWorker.BeforeWorkStarted += () => { Console.WriteLine("Do this before start"); };
             //interceptableWorker.AfterWorkFinished += () => { Console.WriteLine("Do this after finish"); };
             interceptableWorker.DoThis();
+
+            // OUTPUT:
+            //Do this before start
+            //Doing work...
         }
 
         
