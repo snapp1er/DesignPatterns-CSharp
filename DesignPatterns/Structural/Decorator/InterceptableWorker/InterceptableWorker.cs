@@ -41,7 +41,7 @@ namespace DesignPatterns.Structural.Decorator.InterceptableWorker
         }
 
         
-        public new void DoThis()
+        public void DoThis()
         {
             BeforeWorkStarted?.Invoke();
             inner.DoThis();
