@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>DesignPatterns.Creational.Singleton.SoundManager.SoundManager</StartupObject>
+    <StartupObject>DesignPatterns.Behavioral.State.PowerUps.PowerUps</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Behavioral\State\PowerUps\" />
     <Folder Include="Behavioral\Template Method\Workers\" />
     <Folder Include="Creational\Singleton\SoundManager\" />
     <Folder Include="Structural\FlyWeight\MassiveObjectReusing\" />
