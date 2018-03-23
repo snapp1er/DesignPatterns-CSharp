@@ -3,11 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>DesignPatterns.Behavioral.Strategy.Gambling.Gambling</StartupObject>
+    <StartupObject>DesignPatterns.Structural.FlyWeight.MassiveObjectReusing.MassiveObjectReusing</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Behavioral\Template Method\Workers\" />
+    <Folder Include="Structural\FlyWeight\MassiveObjectReusing\" />
   </ItemGroup>
 
 </Project>
