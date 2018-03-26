@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>DesignPatterns.Behavioral.State.PowerUps.PowerUps</StartupObject>
+    <StartupObject>DesignPatterns.Creational.Builder.IceCreamExample.IceCreamExample</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
